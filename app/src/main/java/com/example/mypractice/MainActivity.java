@@ -9,6 +9,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -30,7 +31,10 @@ public class MainActivity extends AppCompatActivity {
     }
     public void sendmessage(View view)
     {
+        EditText editText=findViewById(R.id.user_msg);
+        String message=editText.getText().toString();
         Intent intent=new Intent(this,Main2Activitymsg.class);
+        intent.putExtra("EXTRA_MESSAGE",message);
         startActivity(intent);
     }
 
