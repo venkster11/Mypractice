@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Mypractice</string>
+    <string name="action_settings">Settings</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="edit_button">Send Message</string>
+    <string name="newmessage">Welcome here</string>
+    <string name="welcome_to_next_page">Welcome to next page</string>
+</resources>
