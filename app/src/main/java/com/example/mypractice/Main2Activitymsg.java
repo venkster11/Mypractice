@@ -3,6 +3,7 @@ package com.example.mypractice;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 public class Main2Activitymsg extends AppCompatActivity {
@@ -16,5 +17,9 @@ public class Main2Activitymsg extends AppCompatActivity {
         String message=intent.getStringExtra("EXTRA_MESSAGE");
         TextView textView=findViewById(R.id.display_msg);
         textView.setText(message);
+    }
+
+    public void openFinalActivity(View view) {
+        startActivity(new Intent(this,FinalActivity.class));
     }
 }

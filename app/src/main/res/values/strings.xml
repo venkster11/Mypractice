@@ -5,4 +5,6 @@
     <string name="edit_button">Send Message</string>
     <string name="newmessage">Welcome here</string>
     <string name="welcome_to_next_page">Welcome to next page</string>
+    <string name="final_activity_message">Welcome to final activity</string>
+    <string name="final_activity_button">Open final acivity</string>
 </resources>
