@@ -22,4 +22,6 @@ public class Main2Activitymsg extends AppCompatActivity {
     public void openFinalActivity(View view) {
         startActivity(new Intent(this,FinalActivity.class));
     }
+
+
 }
